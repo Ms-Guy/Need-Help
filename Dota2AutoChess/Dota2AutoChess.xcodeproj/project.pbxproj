@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36332D351991EAE0F201BE29 /* Pods_Dota2AutoChess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35C0849B9190513F8853246A /* Pods_Dota2AutoChess.framework */; };
+		CE59C3A523C2D2E800970B28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3A423C2D2E800970B28 /* AppDelegate.swift */; };
+		CE59C3A723C2D2E800970B28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3A623C2D2E800970B28 /* SceneDelegate.swift */; };
+		CE59C3A923C2D2E800970B28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3A823C2D2E800970B28 /* ViewController.swift */; };
+		CE59C3AC23C2D2E800970B28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3AA23C2D2E800970B28 /* Main.storyboard */; };
+		CE59C3B123C2D2ED00970B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3AF23C2D2ED00970B28 /* LaunchScreen.storyboard */; };
+		CE59C3BB23C2D31B00970B28 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3BA23C2D31B00970B28 /* Model.swift */; };
+		CE59C3C023C2D77C00970B28 /* hero.json in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3BD23C2D77C00970B28 /* hero.json */; };
+		CE59C3C123C2D77C00970B28 /* buff.json in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3BE23C2D77C00970B28 /* buff.json */; };
+		CE59C3C223C2D77C00970B28 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3BF23C2D77C00970B28 /* data.json */; };
+		CE59C3C723C2E92E00970B28 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3C523C2E92E00970B28 /* TableViewCell.swift */; };
+		CE59C3C823C2E92E00970B28 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3C623C2E92E00970B28 /* TableViewCell.xib */; };
+		CE59C3CD23C2F13100970B28 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3CB23C2F13100970B28 /* CollectionViewCell.swift */; };
+		CE59C3CE23C2F13100970B28 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3CC23C2F13100970B28 /* CollectionViewCell.xib */; };
+		CE59C3D023C3231A00970B28 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3CF23C3231A00970B28 /* ViewController2.swift */; };
+		CE59C3D323C46F6600970B28 /* ExpandCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE59C3D123C46F6600970B28 /* ExpandCell.swift */; };
+		CE59C3D423C46F6600970B28 /* ExpandCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3D223C46F6600970B28 /* ExpandCell.xib */; };
+		CE59C3D623C5C59300970B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE59C3D523C5C59300970B28 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35C0849B9190513F8853246A /* Pods_Dota2AutoChess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dota2AutoChess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE59C3A123C2D2E800970B28 /* Dota2AutoChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dota2AutoChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE59C3A423C2D2E800970B28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE59C3A623C2D2E800970B28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE59C3A823C2D2E800970B28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE59C3AB23C2D2E800970B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE59C3B023C2D2ED00970B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE59C3B223C2D2ED00970B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE59C3BA23C2D31B00970B28 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE59C3BD23C2D77C00970B28 /* hero.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hero.json; sourceTree = "<group>"; };
+		CE59C3BE23C2D77C00970B28 /* buff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buff.json; sourceTree = "<group>"; };
+		CE59C3BF23C2D77C00970B28 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		CE59C3C523C2E92E00970B28 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CE59C3C623C2E92E00970B28 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		CE59C3CB23C2F13100970B28 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE59C3CC23C2F13100970B28 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		CE59C3CF23C3231A00970B28 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CE59C3D123C46F6600970B28 /* ExpandCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandCell.swift; sourceTree = "<group>"; };
+		CE59C3D223C46F6600970B28 /* ExpandCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandCell.xib; sourceTree = "<group>"; };
+		CE59C3D523C5C59300970B28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Assets.xcassets; sourceTree = "<group>"; };
+		EA4D1BCF077C007D9FA05040 /* Pods-Dota2AutoChess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2AutoChess.release.xcconfig"; path = "Target Support Files/Pods-Dota2AutoChess/Pods-Dota2AutoChess.release.xcconfig"; sourceTree = "<group>"; };
+		EB5D1C2434BA5B93B2FBB558 /* Pods-Dota2AutoChess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dota2AutoChess.debug.xcconfig"; path = "Target Support Files/Pods-Dota2AutoChess/Pods-Dota2AutoChess.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE59C39E23C2D2E800970B28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36332D351991EAE0F201BE29 /* Pods_Dota2AutoChess.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B150F07BCB80F839BAB2ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35C0849B9190513F8853246A /* Pods_Dota2AutoChess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F9535A01F683A4CD87FAD8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB5D1C2434BA5B93B2FBB558 /* Pods-Dota2AutoChess.debug.xcconfig */,
+				EA4D1BCF077C007D9FA05040 /* Pods-Dota2AutoChess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE59C39823C2D2E800970B28 = {
+			isa = PBXGroup;
+			children = (
+				CE59C3A323C2D2E800970B28 /* Dota2AutoChess */,
+				CE59C3A223C2D2E800970B28 /* Products */,
+				9F9535A01F683A4CD87FAD8C /* Pods */,
+				3B150F07BCB80F839BAB2ACE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE59C3A223C2D2E800970B28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE59C3A123C2D2E800970B28 /* Dota2AutoChess.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE59C3A323C2D2E800970B28 /* Dota2AutoChess */ = {
+			isa = PBXGroup;
+			children = (
+				CE59C3A423C2D2E800970B28 /* AppDelegate.swift */,
+				CE59C3A623C2D2E800970B28 /* SceneDelegate.swift */,
+				CE59C3BC23C2D75E00970B28 /* JsonData */,
+				CE59C3B823C2D2F900970B28 /* Model */,
+				CE59C3B923C2D30A00970B28 /* ViewController */,
+				CE59C3AA23C2D2E800970B28 /* Main.storyboard */,
+				CE59C3D523C5C59300970B28 /* Assets.xcassets */,
+				CE59C3AF23C2D2ED00970B28 /* LaunchScreen.storyboard */,
+				CE59C3B223C2D2ED00970B28 /* Info.plist */,
+			);
+			path = Dota2AutoChess;
+			sourceTree = "<group>";
+		};
+		CE59C3B823C2D2F900970B28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE59C3BA23C2D31B00970B28 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE59C3B923C2D30A00970B28 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE59C3A823C2D2E800970B28 /* ViewController.swift */,
+				CE59C3CF23C3231A00970B28 /* ViewController2.swift */,
+				CE59C3C423C2E90900970B28 /* TableViewCell */,
+				CE59C3C323C2E8F600970B28 /* CollectionViewCell */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE59C3BC23C2D75E00970B28 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				CE59C3BE23C2D77C00970B28 /* buff.json */,
+				CE59C3BF23C2D77C00970B28 /* data.json */,
+				CE59C3BD23C2D77C00970B28 /* hero.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+		CE59C3C323C2E8F600970B28 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE59C3CB23C2F13100970B28 /* CollectionViewCell.swift */,
+				CE59C3CC23C2F13100970B28 /* CollectionViewCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CE59C3C423C2E90900970B28 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE59C3C523C2E92E00970B28 /* TableViewCell.swift */,
+				CE59C3C623C2E92E00970B28 /* TableViewCell.xib */,
+				CE59C3D123C46F6600970B28 /* ExpandCell.swift */,
+				CE59C3D223C46F6600970B28 /* ExpandCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE59C3A023C2D2E800970B28 /* Dota2AutoChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE59C3B523C2D2ED00970B28 /* Build configuration list for PBXNativeTarget "Dota2AutoChess" */;
+			buildPhases = (
+				060959C00560AC51C24A7550 /* [CP] Check Pods Manifest.lock */,
+				CE59C39D23C2D2E800970B28 /* Sources */,
+				CE59C39E23C2D2E800970B28 /* Frameworks */,
+				CE59C39F23C2D2E800970B28 /* Resources */,
+				95F42FCDC8B5D52B66A154E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dota2AutoChess;
+			productName = Dota2AutoChess;
+			productReference = CE59C3A123C2D2E800970B28 /* Dota2AutoChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE59C39923C2D2E800970B28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Trung Kien";
+				TargetAttributes = {
+					CE59C3A023C2D2E800970B28 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = CE59C39C23C2D2E800970B28 /* Build configuration list for PBXProject "Dota2AutoChess" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE59C39823C2D2E800970B28;
+			productRefGroup = CE59C3A223C2D2E800970B28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE59C3A023C2D2E800970B28 /* Dota2AutoChess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE59C39F23C2D2E800970B28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE59C3D423C46F6600970B28 /* ExpandCell.xib in Resources */,
+				CE59C3B123C2D2ED00970B28 /* LaunchScreen.storyboard in Resources */,
+				CE59C3C223C2D77C00970B28 /* data.json in Resources */,
+				CE59C3C823C2E92E00970B28 /* TableViewCell.xib in Resources */,
+				CE59C3D623C5C59300970B28 /* Assets.xcassets in Resources */,
+				CE59C3AC23C2D2E800970B28 /* Main.storyboard in Resources */,
+				CE59C3C023C2D77C00970B28 /* hero.json in Resources */,
+				CE59C3CE23C2F13100970B28 /* CollectionViewCell.xib in Resources */,
+				CE59C3C123C2D77C00970B28 /* buff.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060959C00560AC51C24A7550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dota2AutoChess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95F42FCDC8B5D52B66A154E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dota2AutoChess/Pods-Dota2AutoChess-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dota2AutoChess/Pods-Dota2AutoChess-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dota2AutoChess/Pods-Dota2AutoChess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE59C39D23C2D2E800970B28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE59C3D023C3231A00970B28 /* ViewController2.swift in Sources */,
+				CE59C3C723C2E92E00970B28 /* TableViewCell.swift in Sources */,
+				CE59C3A923C2D2E800970B28 /* ViewController.swift in Sources */,
+				CE59C3D323C46F6600970B28 /* ExpandCell.swift in Sources */,
+				CE59C3CD23C2F13100970B28 /* CollectionViewCell.swift in Sources */,
+				CE59C3A523C2D2E800970B28 /* AppDelegate.swift in Sources */,
+				CE59C3A723C2D2E800970B28 /* SceneDelegate.swift in Sources */,
+				CE59C3BB23C2D31B00970B28 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE59C3AA23C2D2E800970B28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE59C3AB23C2D2E800970B28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE59C3AF23C2D2ED00970B28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE59C3B023C2D2ED00970B28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE59C3B323C2D2ED00970B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE59C3B423C2D2ED00970B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE59C3B623C2D2ED00970B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB5D1C2434BA5B93B2FBB558 /* Pods-Dota2AutoChess.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = ../../../Downloads/Assets.xcassets;
+				INFOPLIST_FILE = Dota2AutoChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kien.Dota2AutoChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE59C3B723C2D2ED00970B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4D1BCF077C007D9FA05040 /* Pods-Dota2AutoChess.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = ../../../Downloads/Assets.xcassets;
+				INFOPLIST_FILE = Dota2AutoChess/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kien.Dota2AutoChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE59C39C23C2D2E800970B28 /* Build configuration list for PBXProject "Dota2AutoChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE59C3B323C2D2ED00970B28 /* Debug */,
+				CE59C3B423C2D2ED00970B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE59C3B523C2D2ED00970B28 /* Build configuration list for PBXNativeTarget "Dota2AutoChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE59C3B623C2D2ED00970B28 /* Debug */,
+				CE59C3B723C2D2ED00970B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE59C39923C2D2E800970B28 /* Project object */;
+}
